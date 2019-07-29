@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/FoodAndDrink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="Food &amp; Drink"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/Restaurants"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:checked="true"
+                    android:text="Restaurants"
+                    android:textColorLink="@color/colorPrimary"
+                    android:textCursorDrawable="@color/colorPrimary" />
+
+                <RadioButton
+                    android:id="@+id/Coffee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="Coffee" />
+
+                <RadioButton
+                    android:id="@+id/Bars"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="Bars" />
+
+                <TextView
+                    android:id="@+id/ThingsToDo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Things To Do"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/Gyms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="Gyms" />
+
+                <RadioButton
+                    android:id="@+id/Art"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="Art" />
+
+                <RadioButton
+                    android:id="@+id/Nightlife"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="Nightlife" />
+
+                <RadioButton
+                    android:id="@+id/Movies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="Movies" />
+
+                <RadioButton
+                    android:id="@+id/Museum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="Museum" />
+
+                <RadioButton
+                    android:id="@+id/Libraries"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="Libraries" />
+
+                <TextView
+                    android:id="@+id/Shopping"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Shopping"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/Groceries"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="Groceries" />
+
+                <RadioButton
+                    android:id="@+id/shopping_centes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="Shopping Centers" />
+
+                <TextView
+                    android:id="@+id/Services"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Services"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/School"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="School" />
+
+                <RadioButton
+                    android:id="@+id/Hospital"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="Hospital" />
+
+                <RadioButton
+                    android:id="@+id/ATMs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="ATMs" />
+
+                <RadioButton
+                    android:id="@+id/Gas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="Gas" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DirectionActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/background_search"
+                android:orientation="vertical"
+                android:padding="1dp">
+                    <fragment
+                        android:id="@+id/place_autocomplete_fragment1"
+                        android:name="com.google.android.libraries.places.compat.ui.PlaceAutocompleteFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/background_search"
+                android:orientation="vertical"
+                android:padding="1dp">
+                <fragment
+                    android:id="@+id/place_autocomplete_fragment2"
+                    android:name="com.google.android.libraries.places.compat.ui.PlaceAutocompleteFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:onClick="btn_click"
+                    android:padding="10dp"
+                    android:src="@drawable/car2" />
+
+                <ImageButton
+                    android:id="@+id/train"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:onClick="btn_click"
+                    android:padding="10dp"
+                    android:src="@drawable/train" />
+
+                <ImageButton
+                    android:id="@+id/walk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:onClick="btn_click"
+                    android:padding="10dp"
+                    android:src="@drawable/walk" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
