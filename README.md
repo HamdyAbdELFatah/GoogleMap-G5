@@ -1,7 +1,7 @@
 # GoogleMap-G5
 Current location,draw line between two point ,nearby places ,autocomplete search and beautiful icons.
 
-# From To and choose transportation
+# From To and choose transportation way
 
 ![Screenshot_2019-07-29-03-49-57](https://user-images.githubusercontent.com/43134132/62017083-9cd65580-b1b5-11e9-9f17-cbb9f9b52323.png)
 
